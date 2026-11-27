@@ -1,0 +1,17 @@
+core.office-import
+Copyright the project contributors. Licensed under MPL-2.0.
+
+This component includes software ported from pp7gen
+(https://github.com/WorshipKit/pp7gen), Copyright WorshipKit,
+licensed under the Apache License, Version 2.0:
+
+  adapters/segments.py      from lib/pp7gen/segment.rb, text_color.rb,
+                            highlight_color.rb, paragraph_helpers.rb
+  adapters/iwork.py         from lib/pp7gen/strategies/pages_input_strategy.rb
+  adapters/pages_reader.py  from lib/pp7gen/strategies/pages_input_strategy.rb
+  adapters/docx_reader.py   from lib/pp7gen/strategies/docx_input_strategy.rb
+  adapters/iwork.desc       protobuf descriptors extracted from pp7gen's
+                            lib/iwork_proto (community-maintained iWork schemas)
+
+Ported from pp7gen commit 66ce372182761b036a358a2e5de5ba9b424e1f92.
+A copy of the Apache License 2.0 is in LICENSE-APACHE-2.0.

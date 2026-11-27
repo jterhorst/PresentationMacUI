@@ -1,0 +1,25 @@
+name: importers
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  importers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: jterhorst/PresentationEngine
+          path: engine
+          # If PresentationEngine is private, add a token with read access:
+          # token: ${{ secrets.ENGINE_READ_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install grpcio-tools jsonschema
+      - run: scripts/test_importers.sh
+        env:
+          ENGINE_DIR: engine

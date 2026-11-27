@@ -1,0 +1,1454 @@
+
+Ñ
+
+TSPMessages.protoTSP"F
+ObjectContainer
+
+identifier (
+objects (2.TSP.Reference"#
+DataReference
+
+identifier ("
+Point	
+x (	
+y ("%
+Size
+width (
+height (")
+Range
+location (
+length ("
+Date
+seconds ("&
+IndexSet
+ranges (2
+.TSP.Range"ø
+Color$
+model (2.TSP.Color.ColorModel	
+r (	
+g (	
+b (
+a (:1	
+c (	
+m (	
+y	 (	
+k
+ (	
+w ("*
+
+ColorModel
+rgb
+cmyk	
+white"Œ
+Path#
+elements (2.TSP.Path.ElementJ
+Element#
+type (2.TSP.Path.ElementType
+points (2
+.TSP.Point"U
+ElementType
+
+moveTo
+
+lineTo
+quadCurveTo
+curveTo
+closeSubpath"«
+PasteboardObject"
+
+stylesheet (2.TSP.Reference!
+	drawables (2.TSP.Reference
+styles (2.TSP.Reference
+theme (2.TSP.Reference"
+
+wp_storage (2.TSP.Reference%
+guide_storage	 (2.TSP.Reference)
+app_native_object (2.TSP.Reference
+is_text_primary (:false
+is_smart (:false"X
+	Reference
+
+identifier (
+deprecated_type (
+deprecated_is_external ("ã
+ReferenceDictionary/
+entries (2.TSP.ReferenceDictionary.EntryC
+Entry
+key (2.TSP.Reference
+value (2.TSP.Referencebproto2
+¢
+TSKArchives.protoTSKTSPMessages.proto"í
+&SetAnnotationAuthorColorCommandArchive"
+super (2.TSK.CommandArchive)
+annotation_author (2.TSP.Reference
+color (2
+.TSP.Color"≈
+CommandHistory
+
+undo_count ( 
+commands (2.TSP.Reference,
+marked_redo_commands (2.TSP.Reference1
+pending_preflight_command (2.TSP.Reference
+fixed_radar_13365177
+ ("_
+DocumentArchive
+locale_identifier (	1
+annotation_author_storage (2.TSP.Reference"Ä
+DocumentSupportArchive'
+command_history (2.TSP.Reference:
+"command_selection_behavior_history (2.TSP.Reference
+
+undo_count (
+
+redo_count (
+undo_action_string (	
+redo_action_string (	!
+	web_state (2.TSP.Reference";
+ViewStateArchive'
+view_state_root (2.TSP.Reference"_
+CommandArchive%
+undoRedoState (2.TSP.Reference&
+undoCollection (2.TSP.Reference"É
+CommandGroupArchive"
+super (2.TSK.CommandArchive 
+commands (2.TSP.Reference&
+process_results (2.TSP.IndexSet";
+CommandContainerArchive 
+commands (2.TSP.Reference"C
+ReplaceAllChildCommandArchive"
+super (2.TSK.CommandArchive"û
+ReplaceAllCommandArchive"
+super (2.TSK.CommandArchive 
+commands (2.TSP.Reference
+find_string (	
+replace_string (	
+options ("ª
+ShuffleMappingArchive
+start_index (
+	end_index (1
+entries (2 .TSK.ShuffleMappingArchive.Entry
+is_vertical (:true 
+is_move_operation (:false
+first_moved_index (:0%
+destination_index_for_move (:0"
+number_of_indices_moved (:0!
+Entry
+from (
+
+to ("K
+AnnotationAuthorStorageArchive)
+annotation_author (2.TSP.Reference"ô
+!AddAnnotationAuthorCommandArchive"
+super (2.TSK.CommandArchive%
+document_root (2.TSP.Reference)
+annotation_author (2.TSP.Reference"Z
+TreeNode
+name (	 
+children (2.TSP.Reference
+object (2.TSP.Reference"I
+ProgressiveCommandGroupArchive'
+super (2.TSK.CommandGroupArchive" 
+&CommandSelectionBehaviorHistoryArchiveB
+entries (21.TSK.CommandSelectionBehaviorHistoryArchive.Entry\
+Entry
+command (2.TSP.Reference2
+command_selection_behavior (2.TSP.Reference"W
+,UndoRedoStateCommandSelectionBehaviorArchive'
+undo_redo_state (2.TSP.Reference"¶	
+FormatStructArchive
+format_type (
+decimal_places (
+currency_code (	
+negative_style ( 
+show_thousands_separator (
+use_accounting_style (
+duration_style (
+base (
+base_places	 (
+base_use_minus_sign
+ (
+fraction_accuracy (
+suppress_date_format (
+suppress_time_format (
+date_time_format (	
+duration_unit_largest (
+duration_unit_smallest (
+	custom_id (
+custom_format_string (	
+scale_factor (%
+requires_fraction_replacement (
+control_minimum (
+control_maximum (
+control_increment (
+control_format_type (
+slider_orientation (
+slider_position (
+decimal_width (
+min_integer_width (#
+num_nonspace_integer_digits (#
+num_nonspace_decimal_digits (%
+index_from_right_last_integer (
+interstitial_strings  (	3
+inters_str_insertion_indexes! (2.TSP.IndexSet
+num_hash_decimal_digits" ( 
+total_num_decimal_digits# (
+
+is_complex$ (
+contains_integer_token% (*
+"multiple_choice_list_initial_value& (
+multiple_choice_list_id' ($
+use_automatic_duration_units( ("≤
+CustomFormatArchive
+name (	
+format_type (0
+default_format (2.TSK.FormatStructArchive6
+
+conditions (2".TSK.CustomFormatArchive.Conditionç
+	Condition
+condition_type (
+condition_value (2
+condition_format (2.TSK.FormatStructArchive
+condition_value_dbl ("B
+AnnotationAuthorArchive
+name (	
+color (2
+.TSP.Color"O
+DeprecatedChangeAuthorArchive
+name (	 
+change_color (2
+.TSP.Colorbproto2
+´
+TSSArchives.protoTSSTSPMessages.protoTSKArchives.proto"ó
+StyleArchive
+name (	
+style_identifier (	
+parent (2.TSP.Reference
+is_variation (:false"
+
+stylesheet (2.TSP.Reference"Œ
+StylesheetArchive
+styles (2.TSP.ReferenceL
+identifier_to_style_map (2+.TSS.StylesheetArchive.IdentifiedStyleEntry
+parent (2.TSP.Reference
+	is_locked (:trueO
+parent_to_children_style_map (2).TSS.StylesheetArchive.StyleChildrenEntry
+can_cull_styles (:falseI
+IdentifiedStyleEntry
+
+identifier (	
+style (2.TSP.ReferenceV
+StyleChildrenEntry
+parent (2.TSP.Reference 
+children (2.TSP.Reference"»
+$ThemeRemoveStylePresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+preset (2.TSP.Reference
+preset_index (
+preset_kind (	
+
+identifier (	"®
+ThemeMovePresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+preset (2.TSP.Reference
+	new_index (
+	old_index ("è
+%ThemeReplaceStylePresetCommandArchive"
+super (2.TSK.CommandArchive
+preset (2.TSP.Reference"
+
+old_preset (2.TSP.Reference"o
+ThemeArchive"
+
+stylesheet (2.TSP.Reference
+theme_identifier (	!
+color_presets
+ (2
+.TSP.Color"¶
+ApplyThemeCommandArchive"
+super (2.TSK.CommandArchive 
+commands (2.TSP.Reference!
+	old_theme (2.TSP.Reference!
+	new_theme (2.TSP.Reference"c
+ApplyThemeChildCommandArchive"
+super (2.TSK.CommandArchive
+parent (2.TSP.Reference"¶
+ReapUnusedStyleCommandArchive"
+super (2.TSK.CommandArchive"
+
+stylesheet (2.TSP.Reference
+styles (2.TSP.ReferenceR
+identified_styles (27.TSS.ReapUnusedStyleCommandArchive.IdentifiedStyleEntryI
+IdentifiedStyleEntry
+
+identifier (	
+style (2.TSP.Reference"É
+$StyleUpdatePropertyMapCommandArchive"
+super (2.TSK.CommandArchive%
+current_style (2.TSP.Reference3
+style_with_old_property_map (2.TSP.Reference3
+style_with_new_property_map (2.TSP.Reference&
+notify_for_style_clients (:true"∑
+ ThemeReplacePresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+preset (2.TSP.Reference!
+	oldPreset (2.TSP.Reference
+index ("≥
+%ThemeReplaceColorPresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+color (2
+.TSP.Color
+	old_color (2
+.TSP.Color
+index ("—
+!ThemeAddStylePresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+preset (2.TSP.Reference
+preset_kind (	
+
+identifier (	 
+add_preset_to_stylesheet (bproto2
+—K
+TSDArchives.protoTSDTSPMessages.protoTSKArchives.protoTSSArchives.proto"g
+CommentStorageArchive
+text (	 
+creation_date (2	.TSP.Date
+author (2.TSP.Reference"f
+GeometryArchive
+position (2
+.TSP.Point
+size (2	.TSP.Size
+flags (
+angle ("é
+PointPathSourceArchive=
+type (2/.TSD.PointPathSourceArchive.PointPathSourceType
+point (2
+.TSP.Point
+naturalSize (2	.TSP.Size"z
+PointPathSourceType
+kTSDLeftSingleArrow 
+kTSDRightSingleArrow
+kTSDDoubleArrow
+
+kTSDStard
+kTSDPlus»"Â
+ScalarPathSourceArchive?
+type (21.TSD.ScalarPathSourceArchive.ScalarPathSourceType
+scalar (
+naturalSize (2	.TSP.Size"Y
+ScalarPathSourceType
+kTSDRoundedRectangle 
+kTSDRegularPolygon
+kTSDChevron"g
+BezierPathSourceArchive
+path_string (	
+naturalSize (2	.TSP.Size
+path (2	.TSP.Path"ù
+CalloutPathSourceArchive
+natural_size (2	.TSP.Size!
+tail_position (2
+.TSP.Point
+	tail_size (
+corner_radius (
+center_tail ("≤
+ConnectionLinePathSourceArchive+
+super (2.TSD.BezierPathSourceArchiveO
+type (2A.TSD.ConnectionLinePathSourceArchive.ConnectionLinePathSourceType
+outset_from (
+	outset_to ("i
+ConnectionLinePathSourceType#
+kTSDConnectionLineTypeQuadratic $
+ kTSDConnectionLineTypeOrthogonal"≥
+EditableBezierPathSourceArchive>
+subpaths (2,.TSD.EditableBezierPathSourceArchive.Subpath
+naturalSize (2	.TSP.Size´
+Node"
+inControlPoint (2
+.TSP.Point
+	nodePoint (2
+.TSP.Point#
+outControlPoint (2
+.TSP.Point;
+type (2-.TSD.EditableBezierPathSourceArchive.NodeTypeS
+Subpath8
+nodes (2).TSD.EditableBezierPathSourceArchive.Node
+closed ("-
+NodeType	
+sharp
+
+bezier
+
+smooth"N
+GuideStorageArchive7
+userDefinedGuides (2.TSD.UserDefinedGuideArchive"Z
+CanvasSelectionArchive
+infos (2.TSP.Reference!
+	container (2.TSP.Reference"M
+EdgeInsetsArchive
+top (
+left (
+bottom (
+right ("ø
+PathSourceArchive
+horizontalFlip (
+verticalFlip (6
+point_path_source (2.TSD.PointPathSourceArchive8
+scalar_path_source (2.TSD.ScalarPathSourceArchive8
+bezier_path_source (2.TSD.BezierPathSourceArchive:
+callout_path_source (2.TSD.CalloutPathSourceArchiveI
+connection_line_path_source (2$.TSD.ConnectionLinePathSourceArchiveI
+editable_bezier_path_source (2$.TSD.EditableBezierPathSourceArchive"-
+AngleGradientArchive
+gradientangle ("r
+TransformGradientArchive
+start (2
+.TSP.Point
+end (2
+.TSP.Point"
+baseNaturalSize (2	.TSP.Size"Ñ
+GradientArchive/
+type (2!.TSD.GradientArchive.GradientType0
+stops (2!.TSD.GradientArchive.GradientStop
+opacity (
+advancedGradient (0
+anglegradient (2.TSD.AngleGradientArchive8
+transformgradient (2.TSD.TransformGradientArchiveO
+GradientStop
+color (2
+.TSP.Color
+fraction (
+
+inflection ("&
+GradientType
+
+Linear 
+
+Radial"÷
+ImageFillArchive%
+	imagedata (2.TSP.DataReferenceH
+	technique (2(.TSD.ImageFillArchive.ImageFillTechnique:NaturalSize
+tint (2
+.TSP.Color
+fillsize (2	.TSP.Size-
+originalimagedata (2.TSP.DataReference,
+$interpretsUntaggedImageDataAsGeneric (*
+database_imagedata (2.TSP.Reference2
+database_originalimagedata (2.TSP.Reference"]
+ImageFillTechnique
+NaturalSize 
+Stretch
+Tile
+ScaleToFill
+
+ScaleToFit"v
+FillArchive
+color (2
+.TSP.Color&
+gradient (2.TSD.GradientArchive$
+image (2.TSD.ImageFillArchive"œ
+StrokePatternArchive9
+type (2+.TSD.StrokePatternArchive.StrokePatternType
+phase (
+count (
+pattern ("M
+StrokePatternType
+
+TSDPattern 
+TSDSolidPattern
+TSDEmptyPattern"˚
+StrokeArchive
+color (2
+.TSP.Color
+width ('
+cap (2.TSD.StrokeArchive.LineCap
+join (2.TSD.LineJoin
+
+miterLimit (*
+pattern (2.TSD.StrokePatternArchive,
+smartStroke (2.TSD.SmartStrokeArchive 
+frame (2.TSD.FrameArchive5
+patterned_stroke	 (2.TSD.PatternedStrokeArchive"3
+LineCap
+ButtCap 
+RoundCap
+	SquareCap"o
+SmartStrokeArchive
+
+strokeName (	
+
+randomSeed (1
+parameterValues (2.TSP.ReferenceDictionary"5
+FrameArchive
+	frameName (	
+
+assetScale (".
+PatternedStrokeArchive
+pattern_name (	"ú
+LineEndArchive
+path (2	.TSP.Path+
+	line_join (2.TSD.LineJoin:	MiterJoin
+	end_point (2
+.TSP.Point
+	is_filled (
+
+identifier (	"®
+ShadowArchive
+color (2
+.TSP.Color
+angle (:315
+offset (:5
+radius (:1
+opacity (:1
+
+is_enabled (:true:
+type (2.TSD.ShadowArchive.ShadowType:TSDDropShadow*
+
+dropShadow (2.TSD.DropShadowArchive0
+contactShadow	 (2.TSD.ContactShadowArchive.
+curvedShadow
+ (2.TSD.CurvedShadowArchive"J
+
+ShadowType
+TSDDropShadow 
+TSDContactShadow
+TSDCurvedShadow"
+DropShadowArchive">
+ContactShadowArchive
+height (:0.2
+offset (:0")
+CurvedShadowArchive
+curve (:0.6")
+ReflectionArchive
+opacity (:0.5"º
+ImageAdjustmentsArchive
+exposure (
+
+saturation (
+contrast (
+
+highlights (
+shadows (
+	sharpness (
+denoise (
+temperature (
+tint	 (
+bottom_level
+ (
+	top_level (:1
+gamma (
+enhance (:false*
+represents_sage_adjustments (:false"¬
+ShapeStylePropertiesArchive
+fill (2.TSD.FillArchive"
+stroke (2.TSD.StrokeArchive
+opacity ("
+shadow (2.TSD.ShadowArchive*
+
+reflection (2.TSD.ReflectionArchive"å
+ShapeStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:0:
+shape_properties (2 .TSD.ShapeStylePropertiesArchive"¢
+MediaStylePropertiesArchive"
+stroke (2.TSD.StrokeArchive
+opacity ("
+shadow (2.TSD.ShadowArchive*
+
+reflection (2.TSD.ReflectionArchive"å
+MediaStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:0:
+media_properties (2 .TSD.MediaStylePropertiesArchive"Ç
+ThemePresetsArchive/
+gradient_fill_presets (2.TSD.FillArchive,
+image_fill_presets (2.TSD.FillArchive*
+shadow_presets (2.TSD.ShadowArchive*
+line_style_presets (2.TSP.Reference+
+shape_style_presets (2.TSP.Reference-
+textbox_style_presets (2.TSP.Reference+
+image_style_presets (2.TSP.Reference+
+movie_style_presets (2.TSP.Reference"º
+$ThemeReplaceFillPresetCommandArchive"
+super (2.TSK.CommandArchive
+theme (2.TSP.Reference
+fill (2.TSD.FillArchive"
+old_fill (2.TSD.FillArchive
+index ("õ
+DrawableArchive&
+geometry (2.TSD.GeometryArchive
+parent (2.TSP.Reference8
+exterior_text_wrap (2.TSD.ExteriorTextWrapArchive
+hyperlink_url (	
+locked (
+comment (2.TSP.Reference
+aspect_ratio_locked (!
+accessibility_description (	"|
+ContainerArchive&
+geometry (2.TSD.GeometryArchive
+parent (2.TSP.Reference 
+children (2.TSP.Reference"U
+GroupArchive#
+super (2.TSD.DrawableArchive 
+children (2.TSP.Reference"÷
+ShapeArchive#
+super (2.TSD.DrawableArchive
+style (2.TSP.Reference*
+
+pathsource (2.TSD.PathSourceArchive*
+head_line_end (2.TSD.LineEndArchive*
+tail_line_end (2.TSD.LineEndArchive"á
+ConnectionLineArchive 
+super (2.TSD.ShapeArchive&
+connected_from (2.TSP.Reference$
+connected_to (2.TSP.Reference"ﬁ
+ImageArchive#
+super (2.TSD.DrawableArchive 
+data (2.TSP.DataReference
+style (2.TSP.Reference
+originalSize (2	.TSP.Size
+mask (2.TSP.Reference)
+thumbnailData (2.TSP.DataReference
+flags ((
+originalData (2.TSP.DataReference
+naturalSize	 (2	.TSP.Size#
+instantAlphaPath
+ (2	.TSP.Path6
+imageAdjustments (2.TSD.ImageAdjustmentsArchive-
+enhancedImageData (2.TSP.DataReference-
+adjustedImageData (2.TSP.DataReference6
+thumbnailAdjustedImageData (2.TSP.DataReference,
+$interpretsUntaggedImageDataAsGeneric (%
+database_data (2.TSP.Reference.
+database_thumbnailData (2.TSP.Reference-
+database_originalData (2.TSP.Reference"^
+MaskArchive#
+super (2.TSD.DrawableArchive*
+
+pathsource (2.TSD.PathSourceArchive"¥
+MovieArchive#
+super (2.TSD.DrawableArchive%
+	movieData (2.TSP.DataReference6
+importedAuxiliaryMovieData (2.TSP.DataReference
+movieRemoteURL (	
+	startTime (
+endTime (
+
+posterTime (
+
+loopOption (
+volume (
+autoPlay (
+	audioOnly	 (
+	streaming (+
+posterImageData (2.TSP.DataReference.
+audioOnlyImageData (2.TSP.DataReference
+playableState (
+flags (*
+database_movieData (2.TSP.Reference0
+database_posterImageData
+ (2.TSP.Reference3
+database_audioOnlyImageData (2.TSP.Reference
+style (2.TSP.Reference
+originalSize (2	.TSP.Size
+naturalSize (2	.TSP.Size"ã
+ExteriorTextWrapArchive
+type (
+	direction (
+fit_type (
+margin (
+alpha_threshold (
+is_html_wrap ("≥
+GuideArchive)
+type (2.TSD.GuideArchive.GuideType
+offset (
+start (
+end (
+dynamic (
+infinite (")
+	GuideType
+
+Horizontal 
+Vertical"å
+UserDefinedGuideArchive4
+type (2&.TSD.UserDefinedGuideArchive.GuideType
+position (")
+	GuideType
+
+Horizontal 
+Vertical*7
+LineJoin
+	MiterJoin 
+	RoundJoin
+	BevelJoinbproto2
+Å
+TSPArchiveMessages.protoTSP"j
+ViewStateMetadata
+version (
+document_version_uuid (	%
+	component (2.TSP.ComponentInfo"ï
+MessageInfo
+type (
+version (
+length (#
+field_infos (2.TSP.FieldInfo
+object_references (
+data_references ("‚
+	FieldInfo
+path (2.TSP.FieldPath(
+type (2.TSP.FieldInfo.Type:Value0
+rule (2.TSP.FieldInfo.Rule:IgnoreAndDrop
+object_references (
+data_references ("F
+Type	
+Value 
+ObjectReference
+DataReference
+Message"_
+Rule
+IgnoreAndDrop 
+IgnoreAndPreserve
+MustUnderstand
+NotSupportedˇˇˇˇˇˇˇˇˇ"
+	FieldPath
+path ("á
+ComponentInfo
+
+identifier (
+preferred_locator (	
+locator (	
+read_version (
+write_version (<
+external_references (2.TSP.ComponentExternalReference4
+data_references (2.TSP.ComponentDataReference<
+-allows_duplicates_outside_of_document_package (:false&
+dirties_document_package	 (:true/
+ is_stored_outside_object_archive
+ (:false"f
+ComponentExternalReference
+component_identifier (
+object_identifier (
+is_weak ("1
+ComponentDataReference
+data_identifier ("§
+PackageMetadata
+last_object_identifier (&
+
+components (2.TSP.ComponentInfo
+datas (2.TSP.DataInfo
+read_version (
+write_version ("s
+PasteboardMetadata
+version (
+app_name (	
+datas (2.TSP.DataInfo
+source_document_uuid (	"∆
+DataInfo
+
+identifier (
+digest (
+preferred_file_name (	
+	file_name (	!
+document_resource_locator (	
+source_bookmark_data (%
+pasteboard_external_file_pathc (	"J
+ArchiveInfo
+
+identifier ('
+message_infos (2.TSP.MessageInfobproto2
+Ÿò
+TSWPArchives.protoTSWPTSPMessages.protoTSSArchives.protoTSDArchives.protoTSKArchives.proto"·
+SelectionArchive!
+type (2.TSWP.SelectionType
+range (2
+.TSP.Range<
+styleInsertionBehavior (2.TSWP.StyleInsertionBehavior*
+caretAffinity (2.TSWP.CaretAffinity%
+smart_field_range (2
+.TSP.Range"ü
+ObjectAttributeTable;
+entries (2*.TSWP.ObjectAttributeTable.ObjectAttributeJ
+ObjectAttribute
+character_index (
+object (2.TSP.Reference"∞
+TextualAttachmentArchive
+string_equivalent (	1
+kind (2#.TSWP.TextualAttachmentArchive.Kind"F
+Kind
+kKindPageNumber 
+kKindPageCount
+kKindFootnoteMark"
+"TSWPTOCPageNumberAttachmentArchive-
+super (2.TSWP.TextualAttachmentArchive
+page_number (	
+bookmark_name (	"
+UIGraphicalAttachment"è
+DrawableAttachmentArchive 
+drawable (2.TSP.Reference
+h_offset_type (
+h_offset (
+v_offset_type (
+v_offset ("F
+TOCAttachmentArchive.
+super (2.TSWP.DrawableAttachmentArchive"ö
+"FootnoteReferenceAttachmentArchive-
+super (2.TSWP.TextualAttachmentArchive)
+contained_storage (2.TSP.Reference
+custom_mark_string (	"u
+NumberAttachmentArchive-
+super (2.TSWP.TextualAttachmentArchive
+number_format (
+string_value (	"
+SmartFieldArchive"P
+HyperlinkFieldArchive&
+super (2.TSWP.SmartFieldArchive
+url_ref (	"[
+PlaceholderSmartFieldArchive&
+super (2.TSWP.SmartFieldArchive
+localizable ("f
+ UnsupportedHyperlinkFieldArchive1
+super (2".TSWP.PlaceholderSmartFieldArchive
+url_ref (	"Ω
+BibliographySmartFieldArchive&
+super (2.TSWP.SmartFieldArchive(
+citation_records (2.TSP.Reference
+localizable (5
+	old_super (2".TSWP.PlaceholderSmartFieldArchive"—
+CitationRecordArchive
+endnote_xml (	
+hide_author_names (
+	hide_year (
+
+page_range (	
+prefix (	
+suffix (	
+authors_string (	
+title (	
+year	 (	
+type
+ (	"π
+CitationSmartFieldArchive&
+super (2.TSWP.SmartFieldArchive(
+citation_records (2.TSP.Reference
+localizable (5
+	old_super (2".TSWP.PlaceholderSmartFieldArchive"Ø
+DateTimeSmartFieldArchive&
+super (2.TSWP.SmartFieldArchive
+format (	
+locale_identifier (	J
+
+date_style (26.TSWP.DateTimeSmartFieldArchive.DateTimeFormatterStyleJ
+
+time_style (26.TSWP.DateTimeSmartFieldArchive.DateTimeFormatterStyleG
+update_plan (22.TSWP.DateTimeSmartFieldArchive.DateTimeUpdatePlan
+needs_update (
+date (2	.TSP.Date"l
+DateTimeUpdatePlan
+kDateTimeUpdatePlanNever 
+kDateTimeUpdatePlanAuto
+kDateTimeUpdatePlanOnce"¿
+DateTimeFormatterStyle
+kDateTimeFormatterStyleNone  
+kDateTimeFormatterStyleShort!
+kDateTimeFormatterStyleMedium
+kDateTimeFormatterStyleLong
+kDateTimeFormatterStyleFull"l
+BookmarkFieldArchive&
+super (2.TSWP.SmartFieldArchive
+name (	
+ranged (
+hidden ("e
+FilenameSmartFieldArchive1
+super (2".TSWP.PlaceholderSmartFieldArchive
+display_flags ("‘
+MergeSmartFieldArchive1
+super (2".TSWP.PlaceholderSmartFieldArchive
+property (	
+label (	
+key (	<
+category (2*.TSWP.MergeSmartFieldArchive.MergeCategory%
+requires_following_whitespace (
+
+whitespace (	
+guid (	
+table_field	 (	"=
+MergeCategory
+kMergeCategoryTo 
+kMergeCategoryFrom"Á
+TOCSmartFieldArchive1
+super (2".TSWP.PlaceholderSmartFieldArchive8
+toc_entries (2#.TSWP.TOCSmartFieldArchive.TOCEntryb
+TOCEntry
+bookmark_name (	$
+target_style (2.TSP.Reference
+range (2
+.TSP.Range"M
+RubyFieldArchive&
+super (2.TSWP.SmartFieldArchive
+	ruby_text (	"»
+ChangeArchive,
+kind (2.TSWP.ChangeArchive.ChangeKind
+session (2.TSP.Reference
+date (2	.TSP.Date
+hidden ("?
+
+ChangeKind
+kChangeKindInsertion
+kChangeKindDeletion"d
+ChangeSessionArchive
+session_uid (
+author (2.TSP.Reference
+date (2	.TSP.Date"
+SectionPlaceholderArchive"è
+StringAttributeTable;
+entries (2*.TSWP.StringAttributeTable.StringAttribute:
+StringAttribute
+character_index (
+object (	"¶
+ParaDataAttributeTable?
+entries (2..TSWP.ParaDataAttributeTable.ParaDataAttributeK
+ParaDataAttribute
+character_index (
+first (
+second ("‡
+SparseObjectAttributeTable
+total_count (G
+entries (26.TSWP.SparseObjectAttributeTable.SparseObjectAttributed
+SparseObjectAttribute
+character_index (
+object (2.TSP.Reference
+
+run_length ("Î	
+StorageArchive4
+kind (2.TSWP.StorageArchive.KindType:TEXTBOX#
+style_sheet (2.TSP.Reference
+text (	
+	has_itext (:false
+in_document
+ (:false4
+table_para_style (2.TSWP.ObjectAttributeTable5
+table_para_data (2.TSWP.ParaDataAttributeTable4
+table_list_style (2.TSWP.ObjectAttributeTable4
+table_char_style (2.TSWP.ObjectAttributeTable4
+table_attachment	 (2.TSWP.ObjectAttributeTable4
+table_smartfield (2.TSWP.ObjectAttributeTable6
+table_layout_style (2.TSWP.ObjectAttributeTable7
+table_para_starts (2.TSWP.ParaDataAttributeTable2
+table_bookmark (2.TSWP.ObjectAttributeTable2
+table_footnote (2.TSWP.ObjectAttributeTable1
+table_section (2.TSWP.ObjectAttributeTable3
+table_rubyfield (2.TSWP.ObjectAttributeTable2
+table_language (2.TSWP.StringAttributeTable3
+table_dictation (2.TSWP.StringAttributeTable3
+table_insertion (2.TSWP.ObjectAttributeTable2
+table_deletion (2.TSWP.ObjectAttributeTable3
+table_highlight (2.TSWP.ObjectAttributeTable5
+table_para_bidi (2.TSWP.ParaDataAttributeTable"v
+KindType
+BODY 
+
+HEADER
+FOOTNOTE
+TEXTBOX
+NOTE
+CELL
+UNCLASSIFIED
+TABLEOFCONTENTS":
+HighlightArchive&
+commentStorage (2.TSP.Reference"D
+FontFeatureArchive
+feature_type (
+feature_selector ("ˇ
+CharacterStylePropertiesArchive
+bold (
+italic (
+	font_size (
+font_name_null (
+	font_name (	
+font_color_null (
+
+font_color (2
+.TSP.Color
+language_null (
+language	 (	J
+superscript
+ (25.TSWP.CharacterStylePropertiesArchive.SuperscriptTypeF
+	underline (23.TSWP.CharacterStylePropertiesArchive.UnderlineTypeH
+
+strikethru (24.TSWP.CharacterStylePropertiesArchive.StrikethruTypeP
+capitalization (28.TSWP.CharacterStylePropertiesArchive.CapitalizationType
+baseline_shift (
+kerning (F
+	ligatures (23.TSWP.CharacterStylePropertiesArchive.LigaturesType
+outline_color_null (!
+outline_color (2
+.TSP.Color
+outline (
+shadow_null ("
+shadow (2.TSD.ShadowArchive
+strikethru_color_null ($
+strikethru_color (2
+.TSP.Color
+strikethru_width (
+background_color_null ($
+background_color (2
+.TSP.Color
+tracking (
+underline_color_null (#
+underline_color (2
+.TSP.Color
+underline_width (
+word_strikethru (
+word_underline  (
+font_features_null! (/
+font_features" (2.TSWP.FontFeatureArchive5
+writing_direction# (2.TSWP.WritingDirectionType
+emphasis_marks_null$ (
+emphasis_marks% (	$
+compatibility_font_name_null& (
+compatibility_font_name' (	"h
+StrikethruType
+kNoStrikethru 
+kSingleStrikethru
+kDoubleStrikethru
+kTripleStrikethru"B
+SuperscriptType
+	kNoScript 
+kSuperscript
+
+kSubscript"L
+CapitalizationType
+kNoCaps 
+kAllCaps
+
+kSmallCaps
+kTitled"a
+UnderlineType
+kNoUnderline 
+kSingleUnderline
+kDoubleUnderline
+kWavyUnderline"R
+LigaturesType
+kRequiredLigatures 
+kStandardLigatures
+kAllLigatures"î
+CharacterStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:0>
+char_properties (2%.TSWP.CharacterStylePropertiesArchive"⁄
+
+TabArchive
+position (4
+	alignment (2!.TSWP.TabArchive.TabAlignmentType
+leader (	"t
+TabAlignmentType
+kTabAlignmentLeft 
+kTabAlignmentCenter
+kTabAlignmentRight
+kTabAlignmentDecimal"-
+TabsArchive
+tabs (2.TSWP.TabArchive"è
+LineSpacingArchive:
+mode (2,.TSWP.LineSpacingArchive.LineSpacingModeType
+amount (
+baselineRule ("ñ
+LineSpacingModeType
+kRelativeLineSpacing 
+kMinimumLineSpacing
+kExactLineSpacing
+kMaximumLineSpacing
+kSpaceBetweenLineSpacing"…
+ParagraphStylePropertiesArchiveJ
+	alignment (27.TSWP.ParagraphStylePropertiesArchive.TextAlignmentType
+decimal_tab_null (
+decimal_tab (	
+default_tab_stops (
+	fill_null (
+fill (2
+.TSP.Color
+first_line_indent (
+	hyphenate (
+keep_lines_together	 (
+keep_with_next
+ (
+left_indent (
+line_spacing_null (.
+line_spacing (2.TSWP.LineSpacingArchive
+page_break_before (J
+borders (29.TSWP.ParagraphStylePropertiesArchive.ParagraphBorderType
+rule_offset_null (
+rule_offset (2
+.TSP.Point
+
+rule_width (
+right_indent (
+space_after (
+space_before (
+	tabs_null (
+tabs (2.TSWP.TabsArchive
+widow_control (
+outline_level (M
+outline_style (26.TSWP.ParagraphStylePropertiesArchive.OutlineStyleType
+following_style_id_null (
+following_style_id (	
+stroke_null ("
+stroke  (2.TSD.StrokeArchive
+show_in_toc! (
+toc_style_id_null" (
+toc_style_id# (	5
+writing_direction& (2.TSWP.WritingDirectionType
+list_style_null' ("
+
+list_style( (2.TSP.Reference
+following_style_null) ('
+following_style* (2.TSP.Reference"^
+TextAlignmentType
+	TATvalue0 
+	TATvalue1
+	TATvalue2
+	TATvalue3
+	TATvalue4"`
+ParagraphBorderType
+	PBTvalue0 
+	PBTvalue1
+	PBTvalue2
+	PBTvalue3
+	PBTvalue4"?
+OutlineStyleType
+	OSTvalue0 
+	OSTvalue1
+	OSTvalue2"‘
+ParagraphStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:0>
+char_properties (2%.TSWP.CharacterStylePropertiesArchive>
+para_properties (2%.TSWP.ParagraphStylePropertiesArchive"Ô
+ListStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:05
+label_types (2 .TSWP.ListStyleArchive.LabelType
+text_indents (
+indents (8
+
+geometries (2$.TSWP.ListStyleArchive.LabelGeometry7
+number_types (2!.TSWP.ListStyleArchive.NumberType
+strings (	1
+images (2!.TSWP.ListStyleArchive.LabelImage
+shadow_null ("
+shadow (2.TSD.ShadowArchive
+font_color_null (
+
+font_color (2
+.TSP.Color
+font_name_null (
+	font_name (	5
+writing_direction (2.TSWP.WritingDirectionType
+tiered_numbers (\
+LabelGeometry
+scale (:1
+baseline_offset (:0
+scale_with_text (:truek
+
+LabelImage!
+image (2.TSP.DataReference
+
+image_null (&
+database_image (2.TSP.Reference"<
+	LabelType	
+kNone 
+
+kImage
+kString
+kNumber"ì
+
+NumberType
+kNumericDecimal 
+kNumericDoubleParen
+kNumericRightParen
+kRomanUpperDecimal
+kRomanUpperDoubleParen
+kRomanUpperRightParen
+kRomanLowerDecimal
+kRomanLowerDoubleParen
+kRomanLowerRightParen
+kAlphaUpperDecimal	
+kAlphaUpperDoubleParen
+
+kAlphaUpperRightParen
+kAlphaLowerDecimal
+kAlphaLowerDoubleParen
+kAlphaLowerRightParen#
+kIdeographicJapaneseDecimalKind'
+#kIdeographicJapaneseDoubleParenKind&
+"kIdeographicJapaneseRightParenKind
+kHiraganaDecimalKind
+kHiraganaDoubleParenKind
+kHiraganaRightParenKind
+kKatakanaDecimalKind
+kKatakanaDoubleParenKind
+kKatakanaRightParenKind
+kHiraganaIrohaDecimalKind!
+kHiraganaIrohaDoubleParenKind 
+kHiraganaIrohaRightParenKind
+kKatakanaIrohaDecimalKind!
+kKatakanaIrohaDoubleParenKind 
+kKatakanaIrohaRightParenKind,
+(kIdeographicSimplifiedChineseDecimalKind0
+,kIdeographicSimplifiedChineseDoubleParenKind/
++kIdeographicSimplifiedChineseRightParenKind -
+)kIdeographicTraditionalChineseDecimalKind!1
+-kIdeographicTraditionalChineseDoubleParenKind"0
+,kIdeographicTraditionalChineseRightParenKind#)
+%kIdeographicFormalJapaneseDecimalKind$-
+)kIdeographicFormalJapaneseDoubleParenKind%,
+(kIdeographicFormalJapaneseRightParenKind&2
+.kIdeographicFormalSimplifiedChineseDecimalKind'6
+2kIdeographicFormalSimplifiedChineseDoubleParenKind(5
+1kIdeographicFormalSimplifiedChineseRightParenKind)3
+/kIdeographicFormalTraditionalChineseDecimalKind*7
+3kIdeographicFormalTraditionalChineseDoubleParenKind+6
+2kIdeographicFormalTraditionalChineseRightParenKind,
+kKoreanAlphabetDecimalKind-"
+kKoreanAlphabetDoubleParenKind.!
+kKoreanAlphabetRightParenKind/
+kCircledNumberKind0
+kArabianNumericDecimalKind1"
+kArabianNumericDoubleParenKind2!
+kArabianNumericRightParenKind3
+kArabianAlphaDecimalKind4 
+kArabianAlphaDoubleParenKind5
+kArabianAlphaRightParenKind6
+kArabianAbjadDecimalKind7 
+kArabianAbjadDoubleParenKind8
+kArabianAbjadRightParenKind9
+kHebrewAlphaDecimalKind:
+kHebrewAlphaDoubleParenKind;
+kHebrewAlphaRightParenKind<
+kHebrewBiblicalStandardKind="Ä
+TextStylePresetArchive
+preset_identifier (	'
+paragraph_style (2.TSP.Reference"
+
+list_style (2.TSP.Reference"ı
+ColumnsArchive?
+equal_columns (2(.TSWP.ColumnsArchive.EqualColumnsArchiveF
+non_equal_columns (2+.TSWP.ColumnsArchive.NonEqualColumnsArchive1
+EqualColumnsArchive
+count (
+gap (¶
+NonEqualColumnsArchive
+first (N
+	following (2;.TSWP.ColumnsArchive.NonEqualColumnsArchive.GapWidthArchive-
+GapWidthArchive
+gap (
+width ("J
+PaddingArchive
+left (
+top (
+right (
+bottom ("µ
+ColumnStylePropertiesArchive
+
+continuous (
+shrink_to_fit (
+vertical_text (
+min_horizontal_inset (T
+vertical_alignment (28.TSWP.ColumnStylePropertiesArchive.VerticalAlignmentType
+columns_null (%
+columns (2.TSWP.ColumnsArchive
+margins_null (%
+margins	 (2.TSWP.PaddingArchive
+padding_null
+ (%
+padding (2.TSWP.PaddingArchive5
+writing_direction (2.TSWP.WritingDirectionType"q
+VerticalAlignmentType
+kFrameAlignTop 
+kFrameAlignMiddle
+kFrameAlignBottom
+kFrameAlignJustify"ê
+ColumnStyleArchive 
+super (2.TSS.StyleArchive
+override_count
+ (:0=
+column_properties (2".TSWP.ColumnStylePropertiesArchive"˜
+ShapeStylePropertiesArchive
+shrink_to_fit (S
+vertical_alignment (27.TSWP.ShapeStylePropertiesArchive.VerticalAlignmentType
+columns_null (%
+columns (2.TSWP.ColumnsArchive
+padding_null (%
+padding (2.TSWP.PaddingArchive!
+default_text_preset_index (
+vertical_text (
+paragraph_style_null	 ('
+paragraph_style
+ (2.TSP.Reference"q
+VerticalAlignmentType
+kFrameAlignTop 
+kFrameAlignMiddle
+kFrameAlignBottom
+kFrameAlignJustify"í
+ShapeStyleArchive%
+super (2.TSD.ShapeStyleArchive
+override_count
+ (:0;
+shape_properties (2!.TSWP.ShapeStylePropertiesArchive"„
+ThemePresetsArchive*
+list_style_presets (2.TSP.Reference*
+text_style_presets (2.TSP.Reference3
+imported_text_style_presets (2.TSP.Reference/
+toc_entry_style_presets (2.TSP.Reference,
+toc_settings_presets (2.TSP.Reference/
+character_style_presets (2.TSP.Reference/
+paragraph_style_presets (2.TSP.Reference"T
+TextPresetDisplayItemArchive
+preset (2.TSP.Reference
+display_name (	"Ö
+TOCEntryStylePropertiesArchive
+page_number_style_null ()
+page_number_style (2.TSP.Reference
+show_page_number ("Ä
+TOCEntryStyleArchive*
+super (2.TSWP.ParagraphStyleArchive<
+toc_properties (2$.TSWP.TOCEntryStylePropertiesArchive"Ë
+TOCSettingsArchive
+toc_name (	
+	toc_scope (6
+entries (2%.TSWP.TOCSettingsArchive.TOCEntryDatau
+TOCEntryData'
+paragraph_style (2.TSP.Reference'
+toc_entry_style (2.TSP.Reference
+show_in_toc ("ñ
+TOCEntryInstanceArchive
+paragraph_index (
+page_number (
+number_format (
+heading (	%
+indexed_style (2.TSP.Reference"º
+UndoTransaction7
+entries (2&.TSWP.UndoTransaction.UnionTransaction[
+TextTransaction
+insert_location (
+insert_length (
+string_to_delete (	Y
+CharIndexTransaction
+
+char_index (
+count (
+object (2.TSP.ReferenceJ
+ReplaceCharIndexTransaction
+attribute_index (
+
+char_index (x
+AttributeIndexTransaction
+attribute_index (
+
+char_index (
+object (2.TSP.Reference
+string (	~
+InsertAttributeTransaction
+attribute_index (
+attribute_count (
+object (2.TSP.Reference
+string (	H
+InsertNilTransaction
+attribute_index (
+attribute_count (W
+CharDeltaTransaction
+
+char_index (
+attribute_index (
+
+char_delta (f
+ParagraphDataTransaction
+attribute_index (
+first (
+second (
+
+char_index (F
+ObjectDOLCTransaction
+flags (
+object (2.TSP.ReferenceE
+CTDateTransaction
+attribute_index (
+date (2	.TSP.Date®
+UnionTransaction,
+kind (2.TSWP.UndoTransaction.UndoKind
+table (9
+generic (2(.TSWP.UndoTransaction.GenericTransaction3
+text (2%.TSWP.UndoTransaction.TextTransaction>
+
+char_index (2*.TSWP.UndoTransaction.CharIndexTransactionM
+replace_char_index (21.TSWP.UndoTransaction.ReplaceCharIndexTransactionH
+attribute_index	 (2/.TSWP.UndoTransaction.AttributeIndexTransaction>
+
+insert_nil
+ (2*.TSWP.UndoTransaction.InsertNilTransactionJ
+insert_attribute (20.TSWP.UndoTransaction.InsertAttributeTransaction>
+
+char_delta (2*.TSWP.UndoTransaction.CharDeltaTransactionF
+paragraph_data (2..TSWP.UndoTransaction.ParagraphDataTransaction@
+object_dolc (2+.TSWP.UndoTransaction.ObjectDOLCTransaction8
+ct_date (2'.TSWP.UndoTransaction.CTDateTransactionD
+GenericTransaction
+value1 (
+value2 (
+value3 ("Ê
+UndoKind
+REPLACE_TEXT
+INSERT_ATTRIBUTE
+DELETE_ATTRIBUTE
+ADJUST_CHAR_INDEXES
+COMPR_ADJUST_CHAR_INDEXES
+REPLACE_CHAR_INDEX
+REPLACE_OBJECT
+REPLACE_PARAGRAPH_DATA
+OBJECT_DOLC	
+CT_DATE
+"P
+UndoTransactionWrapperArchive/
+undo_transaction (2.TSWP.UndoTransaction"^
+ShapeInfoArchive 
+super (2.TSD.ShapeArchive(
+containedStorage (2.TSP.Reference"d
+CommentInfoArchive%
+super (2.TSWP.ShapeInfoArchive'
+comment_storage (2.TSP.Reference"≠
+TOCInfoArchive%
+super (2.TSWP.ShapeInfoArchive$
+toc_settings (2.TSP.Reference&
+toc_entry_data (2.TSP.Reference&
+page_number_ranges (2
+.TSP.Range"5
+TOCLayoutHintArchive
+	charRange (2
+.TSP.Range*Ù
+SelectionType
+SelectionType_Normal 
+SelectionType_ListLabel
+SelectionType_ListTopic
+SelectionType_Replace 
+SelectionType_CopyPasteStyle
+SelectionType_Replace2
+SelectionType_SmartField
+SelectionType_Visual*Ü
+StyleInsertionBehavior!
+StyleInsertionBehavior_NoGrow #
+StyleInsertionBehavior_GrowLeft$
+ StyleInsertionBehavior_GrowRight*?
+CaretAffinity
+CaretAffinity_Start 
+CaretAffinity_End*Å
+WritingDirectionType%
+kWritingDirectionNaturalˇˇˇˇˇˇˇˇˇ 
+kWritingDirectionLeftToRight  
+kWritingDirectionRightToLeftbproto2

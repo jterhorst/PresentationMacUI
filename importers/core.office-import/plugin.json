@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "core.office-import",
+  "name": "Word and Pages import",
+  "version": "1.0.0",
+  "engine_protocol": { "major": 1, "min_minor": 0 },
+  "license": "MPL-2.0 AND Apache-2.0",
+  "description": "First-party import adapters for .docx and .pages. Readers ported from pp7gen (Apache-2.0, WorshipKit). Pages files are read directly; the Pages app is not needed.",
+  "importers": [
+    {
+      "id": "docx",
+      "name": "Word document",
+      "command": "adapters/docx.py",
+      "file_types": [
+        {
+          "uttype": "org.openxmlformats.wordprocessingml.document",
+          "extensions": ["docx"],
+          "mime_types": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
+        }
+      ],
+      "options": "options-docx.json",
+      "options_defaults": { "split_on": "none", "lines_per_slide": 0, "title_slide": false, "keep_formatting": true }
+    },
+    {
+      "id": "pages",
+      "name": "Pages document",
+      "command": "adapters/pages.py",
+      "file_types": [
+        { "uttype": "com.apple.iwork.pages.sffpages", "extensions": ["pages"], "mime_types": ["application/vnd.apple.pages"] }
+      ],
+      "options": "options-pages.json",
+      "options_defaults": { "lines_per_slide": 0, "title_slide": false, "keep_formatting": true }
+    }
+  ]
+}

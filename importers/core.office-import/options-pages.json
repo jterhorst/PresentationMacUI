@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "layout": {
+    "type": "column",
+    "children": [
+      { "type": "number", "label": "Lines per slide (0 = whole stanza)", "bind": "lines_per_slide", "min": 0, "max": 12, "integer": true },
+      { "type": "toggle", "label": "Add a title slide", "bind": "title_slide" },
+      { "type": "toggle", "label": "Keep bold, italic, underline, colors and highlights", "bind": "keep_formatting" }
+    ]
+  }
+}
